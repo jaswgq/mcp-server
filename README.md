@@ -1,5 +1,7 @@
 # Financial Datasets MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@jaswgq/mcp-server)](https://smithery.ai/server/@jaswgq/mcp-server)
+
 ## Introduction
 
 This is a Model Context Protocol (MCP) server that provides access to stock market data from [Financial Datasets](https://www.financialdatasets.ai/). 
@@ -21,6 +23,16 @@ This MCP server provides the following tools:
 - **get_current_crypto_price**: Get the current / latest price of a crypto currency.
 
 ## Setup
+
+### Installing via Smithery
+
+To install mcp-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@jaswgq/mcp-server):
+
+```bash
+npx -y @smithery/cli install @jaswgq/mcp-server --client claude
+```
+
+### Installing Manually
 
 ### Prerequisites
 
